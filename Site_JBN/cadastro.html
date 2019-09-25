@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<!-- Meta tags Obrigatórias -->
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+	<!-- Bootstrap CSS -->
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+	<link rel="stylesheet" type="text/css" href="./arquivos/css/style.css">
+
+	<title>Area de Cadastro</title>
+
+
+</head>
+
+<body>
+
+
+	<div id="container">
+
+		<h1 class="h1">Cadastre-se</h1>
+		<div id="menu">
+
+            <a href="index.html">Home</a> |
+            <a href="cadastro.html">Cadastro</a> |
+            <a href="noticias.html">Noticias</a> |
+            <a href="membros.html">Membros</a> |
+            <a href="galeria.html">Galeria</a> |
+            <a href="https://discord.gg/r6xWHHz">Discord</a>
+		</div>
+
+
+		<div id="form" name = "form">
+
+
+			<form>
+
+				<fieldset>
+
+
+					<legend align="center"><font color="red">Bem Vindo</font></legend>
+
+					<label for="nome">Nome do Personagem</label><br>
+					<input type="text" name="nome" id="nome" size="15" /><br>
+
+					<label for="login">Login</label><br>
+					<input  type="email"  id="email" required autofocus placeholder = "email"><br><br>
+
+
+					<label for="senha">Senha</label><br>
+					<input  type="password"  name="senha"   id="senha1"  required autofocus placeholder = "senha"><br>
+
+					<label for="repsenha"></label><br>
+					<input type="password" id="senha2"  required autofocus placeholder = "senha"><br>
+
+
+
+
+					<label for="sexo">Sexo</label><br>
+					<input type="radio" name="Sexo" value="M" id="sex" onclick="sexo"> Masculino<br>
+					<input type="radio" name="Sexo" value="F" id="sex" onclick="sexo" > Feminino<br><br>
+
+					<label for="clã"> Clã:</label><br>
+					<select name="Clã" id="Clã">
+						<option></option>
+						<option value="Brujah" class="Brujah">Brujah</option>
+						<option value="Gangrel" class="Gangrel">Gangrel</option>
+						<option value="Ventrue" class="Ventrue">Ventrue</option>
+						<option value="Toreador" class="Toreador">Toreador</option>
+						<option value="Tremere" class="Tremere">Tremere</option>
+						<option value="Malkaviano" class="Malkaviano">Malkaviano</option>
+						<option value="Nosferatu" class="Nosferatu">Nosferatu</option>
+					</select><br><br>
+
+					<label for="whatssapp">Whatssapp</label> <br>
+					<input type="tel" name="Whatssapp" id="tel"  required autofocus placeholder = "celular"><br><br>
+
+					<label for="comentarios">Comentarios:</label><br>
+					<textarea name="texto" id="coment"></textarea><br>
+					<button type="button" class="btn btn-dark" value="enviar" id="cadastrar" onclick="salvarUsuario()">Cadastrar</button>
+                                           
+                                        
+                               
+				</fieldset>
+			</form>
+		</div>
+	</div>
+	
+
+	<script type="text/javascript" src="./arquivos/js/main.js"></script>
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>				
+</body>
+<div class="footer-copyright text-center py-3 d-block">
+		© 2019 Copyright: Emerson Medeiros
+	</div>
+
+</html>			

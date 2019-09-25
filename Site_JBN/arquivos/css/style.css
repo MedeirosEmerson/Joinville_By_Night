@@ -1,0 +1,270 @@
+#container{
+	background-color: black;
+
+}
+
+body{
+	background: #000000;
+	font: 16px "Comic Sans MS", cursive, sans-serif;
+	color: #0000ff;
+	width: 100%;
+}
+
+@-webkit-keyframes animacao-h1{
+	from{
+		color: white;
+	}
+	to{
+		color: #FF0000;
+	}
+}
+
+@-moz-keyframes animacao-h1{
+	from{
+		color: white;
+	}
+	to{
+		color: #FF0000;
+	}
+
+	@-o-keyframes animacao-h1{
+		from{
+			color: white;
+		}
+		to{
+			color: #FF0000;
+		}
+	}
+}
+
+h1{
+	color: white;
+	text-align: center;
+	-webkit-animation-name:animacao-h1;
+	animation-duration:30s;
+	animation-iteration-count:100;
+}
+
+h1{
+	color: white;
+	text-align: center;
+	-moz-animation-name:animacao-h1;
+	animation-duration:30s;
+}
+
+#conteudo{
+	text-align: center;
+	color:darkorange;	
+	padding right: 10px;
+	padding-left: 10px;
+	border: 1px solid blue;
+	padding: 5px;
+}
+
+#menu{
+	
+	text-align: center;
+	padding: 0px;
+	width:100%;
+	margin: 5px auto;
+	text-decoration: none;
+	cursor: pointer;
+
+} 
+
+
+input.login{
+	background-image: url("../img/usuario.png");
+	background-repeat: no-repeat;
+	cursor: pointer;
+	padding:0px;
+	
+}
+
+input.senha{
+	background-image: url("../img/icone-cadeado.png");
+	background-repeat: no-repeat;
+	cursor: pointer;
+	margin-bottom: 5px;
+	padding: 0px;
+}
+
+.blog{
+	cursor: pointer;
+}
+
+
+#menu a{
+	color:#3c3c3c;
+	text-decoration: none;
+	font-weight: bold;
+	padding: 0px;
+}
+/*Link,Visited,Active,Hoover*/
+
+#menu a:hover{
+	color: #0000FF;
+}
+
+#quemSomos{
+	padding-top:10px; 
+}
+
+/*Clas*/
+
+.brujah{
+
+	text-align: center;
+	border: 1px double #c0c0c0;
+	color: #0080FF;
+	margin:5%;
+	margin-top: 2%;
+	background-image: url(../img/SBrujah.jpg);
+	background-repeat: no-repeat;
+	background-size: 99%;
+	background-position:center;
+	font-family: inherit;
+	margin: 0;
+
+
+
+
+}
+
+.gangrel{
+	
+	text-align: center;
+	float: left;
+	border: 1px double #c0c0c0;
+	margin: 5%;
+	margin-top: 2%;
+	color: #00FF00;
+	background-image: url(../img/SGangrel.png);
+	background-repeat: no-repeat;
+	background-size: 99%;
+	background-position: center;
+	font-family: inherit;
+	margin: 0;
+
+}
+
+.ventrue{
+	text-align: center;
+	float: left;
+	border: 1px double #c0c0c0;
+	margin:5%;
+	margin-top:2%;
+	color: #0000ff;
+	background-image: url(../img/SVentrue.jpg);
+	background-repeat: no-repeat;
+	background-size: 99%;
+	background-position: center;
+	font-family: inherit;
+	margin: 0;
+
+}
+
+.toreador{
+
+	text-align: center;
+	float: left;
+	border: 1px double #c0c0c0;
+	margin:5%;
+	margin-top:2%;
+	color: #FF0080;
+	background-image: url(../img/SToreador.jpg);
+	background-repeat: no-repeat;
+	background-size: 99%;
+	background-position: center;
+	font-family: inherit;
+	margin: 0;
+
+}
+
+.tremere{
+
+	text-align: center;
+	float: left;
+	border: 1px double #c0c0c0;
+	margin: 5%;
+	margin-top: 2%;
+	color: #800000;
+	background-image: url(../img/STremere.jpg);
+	background-repeat: no-repeat;
+	background-size: 99%;
+	background-position: center;
+	font-family: inherit;
+	margin: 0;
+}
+
+.nosferatu{
+	
+	text-align: center;
+	float: left;
+	border: 1px double #c0c0c0;
+	margin:5%;
+	margin-top: 2%;	
+	color: #FF9900;
+	background-image: url(../img/SNosferatu.jpg);
+	background-repeat: no-repeat;
+	background-size: 99%;
+	background-position: center;
+	font-family: inherit;
+	margin: 0;
+}
+
+.malkaviano{
+	
+	text-align: center;
+	float: left;
+	border: 1px double #c0c0c0;
+	margin: 5%;
+	margin-top:2%;
+	color: #FFCC00;
+	background-image: url(../img/SMalkaviano.jpg);
+	background-repeat: no-repeat;
+	background-size: 100%;
+	background-position: center;
+	font-family: inherit;
+	margin: 0;
+}
+
+.disc{
+	text-align: center;
+	float: left;
+	border: 1px double #c0c0c0;
+	margin: 5%;
+	margin-top: 2%;
+	color: darkred;
+	font-family: inherit;
+	margin: 0;
+
+}
+
+#form{
+	background-color: black;
+	text-align: center;
+	color: blue;
+}
+
+
+#containergal{
+	margin-left: 20%;
+	margin-right: 20%;
+	margin-top: 5%;
+	
+}
+.modal-title{
+	position:absolute;
+	margin-left: 210px;
+}
+
+.col-sm-3 {
+    text-align: center;
+    color: darkorange;
+    padding right: 10px;
+    padding-left: 10px;
+    border: 1px solid blue;
+    padding: 5px;
+}
+
